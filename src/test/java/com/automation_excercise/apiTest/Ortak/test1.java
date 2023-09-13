@@ -27,6 +27,7 @@ public class test1 {
         response.prettyPrint();
     }
 
+
     @Test
     public void test3() {
        RestAssured.given().accept(ContentType.JSON)
