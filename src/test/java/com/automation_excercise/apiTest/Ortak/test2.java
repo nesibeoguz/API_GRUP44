@@ -36,6 +36,7 @@ public class test2 {
     @Test
     public void test3() {
 
+
         int id=43;
         Response response = RestAssured.given().accept(ContentType.JSON)
                 .and().pathParam("id", id)
